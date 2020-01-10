@@ -1,8 +1,14 @@
-#include<stdio.h>
+/*
+ Author : Fahim Muntashir
+ mail : fahim.tech.me@gmail.com
+*/
 
-void main(){
+#include <stdio.h>
 
-    int a,b,c;
+void main()
+{
+
+    int a, b, c;
     printf("enter The first number:");
     scanf("%d", &a);
     printf("enter the second num :");
@@ -11,10 +17,8 @@ void main(){
 
     //c=a+b;
 
-    printf("The sum is : %d\n", a+b);
-    printf("Subtraction is : %d\n", a-b);
-    printf("Multiplication is : %d\n", a*b);
-    printf("Division is : %d\n", a/b);
-
-
+    printf("The sum is : %d\n", a + b);
+    printf("Subtraction is : %d\n", a - b);
+    printf("Multiplication is : %d\n", a * b);
+    printf("Division is : %d\n", a / b);
 }
