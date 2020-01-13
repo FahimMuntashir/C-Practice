@@ -15,6 +15,6 @@ void main()
     } while (a <= n);
     do
     {
-        printf("%d\n", a++);
-    } while (a >= 1);
+        printf("%d\n", --a);
+    } while (a > 1);
 }

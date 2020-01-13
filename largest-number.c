@@ -18,10 +18,10 @@ void main()
   if (a > b)
   {
 
-    printf(" The first num is largest : %d \n ", a);
+    printf(" The first num is the largest : %d \n ", a);
   }
   else
   {
-    printf(" the Second num is the largest: %d \n", b);
+    printf(" the Second num is the  largest: %d \n", b);
   }
 }
