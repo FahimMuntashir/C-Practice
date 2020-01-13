@@ -7,9 +7,14 @@
 void main()
 {
     int a = 1;
+    int n=20;
+
     do
     {
-        printf("%d\n", a);
-        a += 2;
-    } while (a <= 10);
+        printf("%d\n", a++);
+    } while (a <= n);
+    do
+    {
+        printf("%d\n", a++);
+    } while (a >= 1);
 }

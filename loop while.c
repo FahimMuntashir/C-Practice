@@ -4,13 +4,21 @@
 */
 
 #include <stdio.h>
-void main()
+int main()
 {
 
-    int a = 0;
-    while (a <= 10)
+    int a = 1;
+    int n=20;
+    while (a <= n)
     {
-        printf("%d\n", a);
-        a++;
+        printf("%d\n", a++);
     }
+
+
+    while (a>1)
+    {
+        printf("%d\n", --a);
+        
+    }
+    
 }

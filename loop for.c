@@ -6,10 +6,16 @@
 #include <stdio.h>
 void main()
 {
-    int count = 20;
+    int n = 20;
 
-    for (int i = 1; i < count; i++)
+    for (int i = 1; i <= n; i++)
     {
         printf("%d\n", i);
     }
+    for ( int i = n;  i > 0; i--)
+    {
+        printf("%d\n", i);
+
+    }
+    
 }
