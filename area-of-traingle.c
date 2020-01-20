@@ -13,6 +13,6 @@ int main()
     printf("Enter three lengths:\n ");
     scanf("%f %f %f", &a, &b, &c);
     S = (a + b + c) / 2; /* S= perimeter */
-    area = sqrt(S * (S * a) * (S - b) * (S - c));
+    area = sqrt(S * (S - a) * (S - b) * (S - c));
     printf("The Area is : %f\n", area);
 }
